@@ -1,0 +1,18 @@
+#accordion section p5 {
+    display: none;
+    text-align: center;
+    color: turquoise;
+
+}
+#accordion section a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+#accordion section a:hover {
+    text-decoration: underline;
+}
+#accordion section:target p5 {
+    display: block;
+
+}
